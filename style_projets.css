@@ -1,0 +1,63 @@
+@import url(assets/police/SourceSansPro-Regular.ttf);
+.projet{
+    background-color: #8d959d;
+    color:white;
+    background-size: cover;
+    height: 250px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.image{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+    margin: 5% 5%;
+}
+.texte{
+    text-align: center;
+    /* color:white; */
+}
+#mesprojets{
+    /* background: #f80505; */
+    background : linear-gradient(white,black);
+    /* 140005 */
+    padding-top: 0.1px;
+    min-height: 557px;
+}
+h4{
+    color: #000000;
+    /* text-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7); */
+    text-shadow: 0;
+    font-family:SourceSansPro;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+
+}
+.projet:hover{
+    background-color: #DEE2E6;
+    color: #000000;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    /* opacity: 1; */
+}
+nav{
+    background-color: white;
+}
+footer{
+    background-color:black;
+}

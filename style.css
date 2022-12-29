@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+Les couleurs utilisés :
+- Jet Black : #140005
+- Ebony : #464033
+- Gray : #7E7C73
+- Pewter : #BBC4C2
+*/
+
+
+/********** Instruction générale de style **********/
+body{
+    font-family: 'Courier New',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color:black;
+    /* BBC4C2 */
+} 
+
+/* Barre de navigation */
+nav{
+    overflow: hidden;
+    background-color:white;
+    /* 444444 */
+    /* position: fixed; */
+    /* permet de la laisser en haut de l'écran quand on descends */
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo{
+    font-family: 'Dancing Script',cursive;
+    font-weight: bold;
+    float:left;
+    font-size: 1.3em;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/********** Image principale **********/
+
+#imagePrincipale{
+    padding-top: 60px;
+    /* background: url(assets/image-acceuil.png) no-repeat fixed 50% 50%; */
+    background : linear-gradient(white,black);
+    /* background-color: #140005; */
+    background-size: cover;
+    height: 435px;
+    padding-bottom: 1px;
+    filter: saturate(0.5);
+    z-index: 0;
+}  
+h1{
+    /* font-family: 'Dancing Script',cursive; */
+    text-align: center;
+    color:white;
+    font-size: 6em;
+    margin-top: 0px;
+    text-shadow: 1px 3px 2px black;
+    margin-bottom: 10px;
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: white;
+    box-shadow: 1px 3px 2px black;
+}
+h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/********** FOOTER **********/
+footer{
+    background-color:black;
+    /* 140005 */
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+#copyright{
+    /* display: flex; */
+    margin-bottom: 20px;
+    /* padding: 0 10%; */
+    /* width: 50%; */
+    text-align: center;
+    color: #BBC4C2;
+}
